@@ -8,7 +8,12 @@ public class PowerPoint extends Documento{
     }
 
     @Override
-    public void criarArquivo() {
+    public void criarDocumento() {
         System.out.println("Arquivo criado com a extensão "+extensao+": "+getTitulo()+extensao);
+    }
+
+    @Override
+    public String toString() {
+        return "PowerPoint{}";
     }
 }

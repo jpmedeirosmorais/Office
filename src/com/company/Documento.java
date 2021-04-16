@@ -10,7 +10,7 @@ public abstract class Documento {
         this.conteudo = conteudo;
     }
 
-    public abstract void criarArquivo();
+    public abstract void criarDocumento();
 
     public String getTitulo() {
         return titulo;
